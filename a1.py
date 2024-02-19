@@ -60,6 +60,6 @@ search_result = search_product(product_data, 'category', 'Electronics')
 # Bubble Sort
 bubble_sort(product_data)
 
-# Print the sorted product data
+# Print
 for product in product_data:
     print(f"ID: {product.id}, Name: {product.name}, Price: {product.price}, Category: {product.category}")
