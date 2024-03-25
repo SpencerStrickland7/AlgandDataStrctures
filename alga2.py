@@ -21,7 +21,7 @@ def merge_sort(arr):
                 j += 1
             k += 1
             print("Merging:", arr)
-            time.sleep(0.1)  # Adjust the delay as needed
+            time.sleep(0.1)
 
         while i < len(left_half):
             arr[k] = left_half[i]
@@ -38,7 +38,6 @@ def merge_sort(arr):
             time.sleep(0.1)
 
 def main():
-    # Generate random array
     array = [random.randint(50, 500) for _ in range(10)]
 
     print("Unsorted array:", array)
